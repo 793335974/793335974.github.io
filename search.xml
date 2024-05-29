@@ -183,6 +183,33 @@
     
     
     <entry>
+      <title>Git笔记</title>
+      <link href="/2022/04/15/Git%E7%AC%94%E8%AE%B0/"/>
+      <url>/2022/04/15/Git%E7%AC%94%E8%AE%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Git总结"><a href="#Git总结" class="headerlink" title="Git总结"></a>Git总结</h1><h3 id="1、配置用户"><a href="#1、配置用户" class="headerlink" title="1、配置用户"></a>1、配置用户</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &quot;wjt&quot;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email &quot;793335974@qq.com&quot;</span><br></pre></td></tr></table></figure><h3 id="2、关联"><a href="#2、关联" class="headerlink" title="2、关联"></a>2、关联</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin https://gitee.com/wen-jiangtao1/123.git</span><br></pre></td></tr></table></figure><h3 id="3、拉取"><a href="#3、拉取" class="headerlink" title="3、拉取"></a>3、拉取</h3><p>保证远程端与本地端一致，有可能导致代码冲突</p><p><code>git pull --rebase</code></p><p><code> git pull origin 分支名</code></p><h3 id="4、暂存"><a href="#4、暂存" class="headerlink" title="4、暂存"></a>4、暂存</h3><p>将文件变动添加到暂存区</p><p><code>git add -A</code></p><h3 id="5、提交到本地"><a href="#5、提交到本地" class="headerlink" title="5、提交到本地"></a>5、提交到本地</h3><p><code>git commit -m &#39;提交说明&#39;</code></p><h3 id="6、推送"><a href="#6、推送" class="headerlink" title="6、推送"></a>6、推送</h3><p><code>git push -u origin master</code> &#x2F;&#x2F; 第一次推送可以加 -u 参数，以后推送至需要git push</p><h3 id="7、查看仓库状态"><a href="#7、查看仓库状态" class="headerlink" title="7、查看仓库状态"></a>7、查看仓库状态</h3><p><code>git status</code></p><h3 id="8、分支操作"><a href="#8、分支操作" class="headerlink" title="8、分支操作"></a>8、分支操作</h3><p>概念：分支操作就是生成一份现有代码的物理拷贝，然后在分支上进行操作，而不是直接在 master 上操作。</p><table><thead><tr><th align="center">命令名称</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center"><code>git branch</code></td><td align="center">查看本地分支</td></tr><tr><td align="center"><code>git branch -r</code></td><td align="center">查看远程分支</td></tr><tr><td align="center"><code>git branch --all</code></td><td align="center">查看所有分支，包括本地和远程端</td></tr><tr><td align="center"><code>git branch 分支名</code></td><td align="center">创建分支并命名</td></tr><tr><td align="center"><code>git checkout 分支名</code></td><td align="center">切换分支</td></tr><tr><td align="center"><code>git merge 分支名</code></td><td align="center">合并指定分支到当前分支</td></tr><tr><td align="center"><code>git branch -d 分支名</code></td><td align="center">删除分支</td></tr><tr><td align="center"><code>git branch -D 分支名</code></td><td align="center">强制删除</td></tr></tbody></table><h3 id="9、冲突"><a href="#9、冲突" class="headerlink" title="9、冲突"></a>9、冲突</h3><p>描述：因为不同的人改了同一个文件的代码</p><p>远程端：<code>git rebase --skip</code></p><p>本地端：<code>git rebase --continue</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 编程 </tag>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>HTML笔记</title>
       <link href="/2021/11/21/HTML%E7%AC%94%E8%AE%B0/"/>
       <url>/2021/11/21/HTML%E7%AC%94%E8%AE%B0/</url>
@@ -318,33 +345,6 @@
     
     
     <entry>
-      <title>Git笔记</title>
-      <link href="/2021/04/15/Git%E7%AC%94%E8%AE%B0/"/>
-      <url>/2021/04/15/Git%E7%AC%94%E8%AE%B0/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Git总结"><a href="#Git总结" class="headerlink" title="Git总结"></a>Git总结</h1><h3 id="1、配置用户"><a href="#1、配置用户" class="headerlink" title="1、配置用户"></a>1、配置用户</h3><p><code>git config --global user.name &quot;飞舟&quot;</code></p><p><code>git config --global user.email  “fay_chou@163.com&quot;</code></p><h3 id="2、关联"><a href="#2、关联" class="headerlink" title="2、关联"></a>2、关联</h3><p><code>git remote add origin git@gitee.com:faychou/w304_vue_cart.git</code></p><h3 id="3、拉取"><a href="#3、拉取" class="headerlink" title="3、拉取"></a>3、拉取</h3><p>保证远程端与本地端一致，有可能导致代码冲突</p><p><code>git pull --rebase</code></p><p><code> git pull origin 分支名</code></p><h3 id="4、暂存"><a href="#4、暂存" class="headerlink" title="4、暂存"></a>4、暂存</h3><p>将文件变动添加到暂存区</p><p><code>git add -A</code></p><h3 id="5、提交到本地"><a href="#5、提交到本地" class="headerlink" title="5、提交到本地"></a>5、提交到本地</h3><p><code>git commit -m &#39;提交说明&#39;</code></p><h3 id="6、推送"><a href="#6、推送" class="headerlink" title="6、推送"></a>6、推送</h3><p><code>git push -u origin master</code> &#x2F;&#x2F; 第一次推送可以加 -u 参数，以后推送至需要git push</p><h3 id="7、查看仓库状态"><a href="#7、查看仓库状态" class="headerlink" title="7、查看仓库状态"></a>7、查看仓库状态</h3><p><code>git status</code></p><h3 id="8、分支操作"><a href="#8、分支操作" class="headerlink" title="8、分支操作"></a>8、分支操作</h3><p>概念：分支操作就是生成一份现有代码的物理拷贝，然后在分支上进行操作，而不是直接在 master 上操作。</p><table><thead><tr><th align="center">命令名称</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center"><code>git branch</code></td><td align="center">查看本地分支</td></tr><tr><td align="center"><code>git branch -r</code></td><td align="center">查看远程分支</td></tr><tr><td align="center"><code>git branch --all</code></td><td align="center">查看所有分支，包括本地和远程端</td></tr><tr><td align="center"><code>git branch 分支名</code></td><td align="center">创建分支并命名</td></tr><tr><td align="center"><code>git checkout 分支名</code></td><td align="center">切换分支</td></tr><tr><td align="center"><code>git merge 分支名</code></td><td align="center">合并指定分支到当前分支</td></tr><tr><td align="center"><code>git branch -d 分支名</code></td><td align="center">删除分支</td></tr><tr><td align="center"><code>git branch -D 分支名</code></td><td align="center">强制删除</td></tr></tbody></table><h3 id="9、冲突"><a href="#9、冲突" class="headerlink" title="9、冲突"></a>9、冲突</h3><p>描述：因为不同的人改了同一个文件的代码</p><p>远程端：<code>git rebase --skip</code></p><p>本地端：<code>git rebase --continue</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Git </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 编程 </tag>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Vue3笔记</title>
       <link href="/2021/01/25/Vue3%E7%AC%94%E8%AE%B0/"/>
       <url>/2021/01/25/Vue3%E7%AC%94%E8%AE%B0/</url>
@@ -357,9 +357,9 @@
             
             <tag> 前端 </tag>
             
-            <tag> Vue3 </tag>
-            
             <tag> Vue </tag>
+            
+            <tag> Vue3 </tag>
             
         </tags>
       
@@ -386,9 +386,9 @@
             
             <tag> 编程 </tag>
             
-            <tag> Mysql </tag>
-            
             <tag> 笔记 </tag>
+            
+            <tag> Mysql </tag>
             
         </tags>
       
@@ -525,9 +525,9 @@
             
             <tag> 编程 </tag>
             
-            <tag> 笔记 </tag>
-            
             <tag> js </tag>
+            
+            <tag> 笔记 </tag>
             
         </tags>
       
