@@ -34,3 +34,9 @@ for (var i = 0; i < videoPlayers.length; i++) {
     videoPlayers[i].src = videoUrls[currentVideoIndex];
     videoPlayers[i].load();
 }
+var myvideo = document.getElementById("bg-video");
+var playmusic = document.getElementById("playmusic");
+playmusic.addEventListener("click", function() {
+    myvideo.play();
+    myvideo.muted = false || true;
+});
