@@ -137,9 +137,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> 编程 </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       
@@ -295,9 +295,9 @@
             
             <tag> 前端 </tag>
             
-            <tag> Vue </tag>
-            
             <tag> Vue3 </tag>
+            
+            <tag> Vue </tag>
             
         </tags>
       
@@ -432,9 +432,9 @@
       
         <tags>
             
-            <tag> 编程 </tag>
-            
             <tag> CSS </tag>
+            
+            <tag> 编程 </tag>
             
             <tag> 前端 </tag>
             
@@ -487,6 +487,31 @@
           
       </categories>
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title> 案例</title>
+      <link href="/2021/01/01/js1/"/>
+      <url>/2021/01/01/js1/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="案例"><a href="#案例" class="headerlink" title="案例"></a>案例</h1><h3 id="随机颜色"><a href="#随机颜色" class="headerlink" title="随机颜色"></a>随机颜色</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line">&lt;!<span class="variable constant_">DOCTYPE</span> html&gt;</span><br><span class="line">&lt;html lang=&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset=&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</span><br><span class="line">    &lt;title&gt;Random Color Divs&lt;/title&gt;</span><br><span class="line">    &lt;style&gt;</span><br><span class="line">        .random-div &#123;</span><br><span class="line">            width: 100px;</span><br><span class="line">            height: 100px;</span><br><span class="line">            margin: 10px;</span><br><span class="line">            display: inline-block;</span><br><span class="line">        &#125;</span><br><span class="line">    &lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;random-div&quot;&gt;&lt;/div&gt;</span><br><span class="line"></span><br><span class="line">    &lt;script&gt;</span><br><span class="line">        function generateRandomColor() &#123;</span><br><span class="line">            var red = Math.floor(Math.random() * 256);</span><br><span class="line">            var green = Math.floor(Math.random() * 256);</span><br><span class="line">            var blue = Math.floor(Math.random() * 256);</span><br><span class="line">            return &quot;rgb(&quot; + red + &quot;,&quot; + green + &quot;,&quot; + blue + &quot;)&quot;;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        var divs = document.querySelectorAll(&#x27;.random-div&#x27;);</span><br><span class="line">        divs.forEach(function(div) &#123;</span><br><span class="line">            div.style.backgroundColor = generateRandomColor();</span><br><span class="line">        &#125;);</span><br><span class="line">    &lt;/script&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h4 id="第二种"><a href="#第二种" class="headerlink" title="第二种"></a>第二种</h4><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Math</span>.<span class="title function_">floor</span>(<span class="title class_">Math</span>.<span class="title function_">random</span>()*<span class="number">16777215</span>).<span class="title function_">toString</span>(<span class="number">16</span>).<span class="title function_">padStart</span>(<span class="number">6</span>, <span class="string">&#x27;0&#x27;</span>)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
       
     </entry>
     

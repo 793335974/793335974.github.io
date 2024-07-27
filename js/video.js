@@ -1,4 +1,4 @@
-var videoUrls = ["//api.yujn.cn/api/zzxjj.php?video=1", "//api.yujn.cn/api/zzxjj.php?video=2", "//api.yujn.cn/api/zzxjj.php?video=3"];
+var videoUrls = ["https://jx.iqfk.top/api/sjsp.php?video=1", "https://jx.iqfk.top/api/sjsp.php?video=2", "https://jx.iqfk.top/api/sjsp.php?video=3"];
 var currentVideoIndex = 0;
 var videoPlayers = document.getElementsByClassName('videoPlayer');
 
@@ -34,12 +34,12 @@ for (var i = 0; i < videoPlayers.length; i++) {
     videoPlayers[i].src = videoUrls[currentVideoIndex];
     videoPlayers[i].load();
 }
-var myvideo = document.getElementById("bg-video");
-myvideo.addEventListener("click", function () {
-    if (myvideo.muted == true) {
-        myvideo.play();
-        myvideo.muted = false;
-    } else {
-        myvideo.muted = true;
-    }
-});
+// var myvideo = document.getElementById("bg-video");
+// myvideo.addEventListener("click", function () {
+//     if (myvideo.muted == true) {
+//         myvideo.play();
+//         myvideo.muted = false;
+//     } else {
+//         myvideo.muted = true;
+//     }
+// });
