@@ -106,7 +106,7 @@
       <link href="/2024/01/23/host/"/>
       <url>/2024/01/23/host/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="host"><a href="#host" class="headerlink" title="host"></a>host</h1><p>参考：<a href="https://blog.csdn.net/qq_41176055/article/details/128496628">https://blog.csdn.net/qq_41176055/article/details/128496628</a></p><ol><li><p>DNS解析网址： <a href="http://tool.chinaz.com/dns/">http://tool.chinaz.com/dns/</a><br>  github加速：<a href="https://api.aa1.cn/doc/Github.html">https://api.aa1.cn/doc/Github.html</a></p></li><li><p>打开电脑文件C:\Windows\System32\drivers\etc下的host文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Windows\System32\drivers\etc</span><br></pre></td></tr></table></figure></li><li><p>在host文件的最后一刚加入刚才复制的IP<br>4.win+R 打开cmd 命窗口，执行命令ipconfig&#x2F;flushdns</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ipconfig/flushdns</span><br></pre></td></tr></table></figure><p>刷新DNS缓存</p></li></ol>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="host"><a href="#host" class="headerlink" title="host"></a>host</h1><p>参考：<a href="https://blog.csdn.net/qq_41176055/article/details/128496628">https://blog.csdn.net/qq_41176055/article/details/128496628</a></p><ol><li><p>DNS解析网址： <a href="http://tool.chinaz.com/dns/">http://tool.chinaz.com/dns/</a><br>  github加速：<a href="http://api.wer.plus/api/getgithub">http://api.wer.plus/api/getgithub</a></p></li><li><p>打开电脑文件C:\Windows\System32\drivers\etc下的host文件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">C:\Windows\System32\drivers\etc</span><br></pre></td></tr></table></figure></li><li><p>在host文件的最后一刚加入刚才复制的IP<br>4.win+R 打开cmd 命窗口，执行命令ipconfig&#x2F;flushdns</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ipconfig/flushdns</span><br></pre></td></tr></table></figure><p>刷新DNS缓存</p></li></ol>]]></content>
       
       
       
@@ -137,9 +137,9 @@
       
         <tags>
             
-            <tag> 编程 </tag>
-            
             <tag> Git </tag>
+            
+            <tag> 编程 </tag>
             
         </tags>
       
@@ -432,9 +432,9 @@
       
         <tags>
             
-            <tag> CSS </tag>
-            
             <tag> 编程 </tag>
+            
+            <tag> CSS </tag>
             
             <tag> 前端 </tag>
             
