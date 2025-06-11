@@ -1,5 +1,7 @@
 var videoUrls = 'https://jx.iqfk.top/api/sjsp.php';
+const url2 = 'http://api.yujn.cn/api/zzxjj.php';
 var myvideo = document.querySelector('.videoPlayer');
+myvideo.src = url2
 function togglePlayPause() {
     if (myvideo) {
         myvideo.paused ? myvideo.play() : myvideo.pause();
@@ -9,7 +11,7 @@ function togglePlayPause() {
 }
 function playNextVideo() {
     if (myvideo) {
-        myvideo.src = videoUrls;
+        myvideo.src = url2;
         myvideo.load();
         myvideo.play();
     } else {
