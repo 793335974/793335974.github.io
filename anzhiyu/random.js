@@ -1,3 +1,3 @@
-var posts=["2025/10/26/Nginx/","2025/10/26/cloudserver/","2025/11/02/jsproject/","2025/10/29/mysql/","2025/10/03/hello-world/","2025/11/04/js类的使用方法/","2025/10/13/system/","2025/11/04/学习ts/","2025/10/13/windowsCmd/"];function toRandomPost(){
+var posts=["2021/01/11/CSS/","2021/01/11/Canvas/","2022/04/15/Git/","2021/11/21/HTML/","2021/01/11/JS/","2025/10/26/Nginx/","2021/08/10/React/","2021/01/11/Node.js/","2021/01/15/Vue2/","2024/06/24/Web/","2021/01/25/Vue3/","2021/08/11/ajax/","2024/03/24/bk/","2025/10/26/cloudserver/","2025/10/03/hello-world/","2021/01/01/compute/","2024/01/23/host/","2025/11/02/jsproject/","2021/05/24/TS/","2025/11/04/js类的使用方法/","2025/10/29/mysql/","2021/01/01/face/","2021/08/17/program/","2024/04/11/vue/","2024/04/09/this/","2025/11/04/学习ts/","2025/10/13/windowsCmd/","2025/10/13/system/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
